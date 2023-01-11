@@ -1,4 +1,4 @@
-h1 {
+h1, h3 {
   color:#2299aa;
 }
 
@@ -27,20 +27,34 @@ h1 {
 /* buttons */
 .btn{
   background-color:#2299aa !important ;
-  border-radius: 2rem !important;
+  border-radius: 2rem;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   color: #ffffff !important;
+  border: none;
 }
 
 img {
-  border-color: #097a8b;
+  border: 5px solid #097a8b;
   border-width: 10%;
   border-radius: 50%;
 }
 /* banner */
 .banner{
-  /* background-color: #eae7dc; */
-  background-color: white;
+  background-color: #eae7dc;
+  /* background-color: white; */
 
 }
+
+ul, li {
+  list-style: none;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+  
+
