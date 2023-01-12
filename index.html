@@ -17,7 +17,13 @@
  <section class="navigation">
   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
     <div class="container">
-      <h1 class="navbar-brand">Nimo</h1>
+
+      <!-- <h1 class="navbar-brand">Nimo</h1> -->
+      <li><a href="https://www.linkedin.com/in/nimo-jama/" class="navbar-brand fa fa-linkedin" aria-hidden="true"><span
+            class="label"></span></a></li>
+      <br>
+      <li><a href="https://github.com/nsjama21" class="navbar-brand fa fa-github" aria-hidden="true"><span class="label"></span></a>
+      </li>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,10 +37,12 @@
             <a class="nav-link" href="#my-works">My Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">My Resume</a>
+            <a class="nav-link btn btn-primary" href="https://docs.google.com/document/d/1lIeXBzanLK4KmaaOS6OCTKeZkQl-RTAB/edit">My Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-primary" href="#">About Me</a>
+            <br>
+            <!-- <a class="nav-link btn btn-primary" href="#">About Me</a> -->
+
           </li>
         </ul>
       </div>
@@ -48,12 +56,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img src="/images/blackwhite.jpg" class="img-fluid" alt="" width="500px">
+        <img src="/images/blackwhite.jpg" class="img-fluid me" alt="" width="500px">
       </div>
-      <div class="col-md-6 py-4">
-        <h1>Hi, I'm Nimo and I'm a Full-Stack Developer</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, natus consequuntur deleniti sed sapiente tempora fugiat dolore, non saepe corporis, libero unde molestiae? Sequi in ex quaerat dolorum? Illo, assumenda!</p>
-        <a href="#" class="btn btn-primary">My Projects</a>
+      <div class="col-md-6 py-4 about-me">
+        <h1 class="about-me">Hi, I'm Nimo and I'm a Full-Stack Developer</h1>
+        <p class="about-me-more">I completed an undergraduate degree from The Ohio State University in Speech and Hearing Science in December of 2011. Since then, I've been interested in technology and how it can change the world. How an application can create access to resources for many and transform quality across industries. As the world changes, technology changes. The sheer possibilities are endless and thought-provoking. This is why I love software engineering. </p>
+        <!-- <a href="#my-resume" class="btn btn-primary">My Resume</a> -->
+        <!-- <a href="#my-resume" class="btn btn-primary"><img src="images/resume.JPG" alt="">My Resume</a> -->
       </div>
     </div>
   </div>
@@ -66,10 +75,8 @@
   <div class="row">
     <div class="col-md-7">
       <h1>Per Scholas</h1>
-      <p>Software Engineering Bootcamp: A 15-week Full-Stack development program learning MERN stack, JavaScript and CS concepts. Front-End Frameworks, Back-End Frameworks and Databases, Data Structures, and Algorithms.</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel explicabo, odio consectetur architecto veniam, asperiores deserunt exercitationem rerum laborum voluptas eveniet. Soluta quod ullam doloribus voluptates quisquam obcaecati asperiores cupiditate.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, obcaecati. Similique voluptate amet aliquid magni deserunt ratione, sapiente iste saepe delectus et adipisci, totam ut ducimus aut incidunt dolorum illum!</p>
-      <a href="#" class="btn btn-primary">My Projects</a>
+      <p>I was fortunate enough to be able to complete a Software Engineering Bootcamp with Per Scholas: A 15-week, Full-Stack, development program learning MERN stack, JavaScript and CS concepts. Through this immersive program, we learned Front-End Frameworks, Back-End Frameworks and Databases, Data Structures, and Algorithms.</p>
+      <a href="https://docs.google.com/document/d/1lIeXBzanLK4KmaaOS6OCTKeZkQl-RTAB/edit" ><img class="resume" src="images/resume.JPG" alt=""></a>
     </div>
     <div class="col-md-5 py-5" >
       <div class="row">
@@ -117,7 +124,7 @@
 
 <section id="my-works" class="py-5">
   <div class="text-center">
-    <h1>My Works</h1>
+    <h1>My Projects</h1>
     <p>Take a look at some of my works</p>
     <div class="container">
       <div class="row">
@@ -130,8 +137,8 @@
           <a href="https://nsjama21.github.io/FirstProject/"><h5 class="mt-4">Hangman Game JavaScript</h5></a>
         </div>
         <div class="col-md-4 py-4">
-          <img src="/images/projectthree.JPG" class="img-fluid" alt="">
-          <h5 class="mt-4">E-Commerce Shopping MERN Stack</h5>
+          <a href="https://mernwebsite.onrender.com"><img src="/images/projectthree.JPG" class="img-fluid" alt=""></a>
+          <a href="https://mernwebsite.onrender.com"><h5 class="mt-4">E-Commerce Shopping MERN Stack</h5></a>
         </div>
       </div>
     </div>
@@ -145,10 +152,13 @@
   <div class= "container" id="socials">
     <h3>Social Media: </h3>
     <br>
-  <ul class="icons alt">
-    <li><a href="https://www.linkedin.com/in/nimo-jama/" class="fa fa-linkedin fa-2x" aria-hidden="true"><span class="label"></span></a></li>
-    <li><a href="https://github.com/nsjama21" class="fa fa-github fa-2x" aria-hidden="true"><span class="label"></span></a></li>
+    <div class="my-links">
+  <ul class="icons alt social-media">
+    <li><a href="https://www.linkedin.com/in/nimo-jama/" class="fa fa-linkedin fa-2x" aria-hidden="true"></a></li>
+    <br>
+    <li><a href="https://github.com/nsjama21" class="fa fa-github fa-2x" aria-hidden="true"></a></li>
   </ul>
+  </div>
   </div>
 </section>
 
