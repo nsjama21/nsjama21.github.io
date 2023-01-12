@@ -1,4 +1,4 @@
-h1, h3 {
+h1, h3, h4 {
   color:#2299aa;
 }
 
@@ -34,13 +34,15 @@ h1, h3 {
   border: none;
 }
 
-img {
+/* Need to fix my profile photo border */
+/* img {
   border: 5px solid #097a8b;
   border-width: 10%;
   border-radius: 50%;
-}
+} */
 /* banner */
-.banner{
+.banner, #my-works{
+  /* width: 100%; */
   background-color: #eae7dc;
   /* background-color: white; */
 
