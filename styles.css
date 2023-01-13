@@ -44,6 +44,10 @@ h1, h3, h4, h5 {
 .resume {
   border: 5px solid #097a8b;
 }
+
+.projects {
+  border: 5px solid #097a8b;
+}
 /* banner */
 .banner, #my-works{
   /* width: 100%; */
