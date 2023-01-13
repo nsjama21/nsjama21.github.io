@@ -1,5 +1,5 @@
 h1, h3, h4, h5 {
-  color:#2299aa;
+  color:#21295c;
 }
 
 .navigation {
@@ -47,8 +47,8 @@ h1, h3, h4, h5 {
 /* banner */
 .banner, #my-works{
   /* width: 100%; */
-  background-color: #eae7dc;
-  /* background-color: white; */
+  background-color: #dbc2cf
+  /* background-color: whcfite; */
 
 }
 
@@ -77,3 +77,16 @@ ul, li {
 .my-links {
   margin-top:2% ;
 }
+
+#my-projects {
+  /* background-color: #1c7293; */
+  background-color: #9fa2b2;
+}
+
+
+.socials {
+  background-color: #9fa2b2;
+}
+/* .social-area {
+  background-color: #eae7dc;
+} */
