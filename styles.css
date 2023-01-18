@@ -1,23 +1,28 @@
-h1, h3, h4, h5 {
-  color:#21295c;
+h1,
+h3,
+h4,
+h5 {
+  color: #21295c;
 }
 
 .navigation {
   width: 100%;
   position: relative;
   min-height: 60px;
-  z-index:1000;
+  z-index: 1000;
 }
 
-#navbarNav{
+#navbarNav {
   justify-content: flex-end;
 }
 
-.navbar-brand{
-  color: #2299aa !important; 
+.navbar-brand {
+  color: #2299aa !important;
 }
 
-.navbar-light, .navbar-nav, .nav-link{
+.navbar-light,
+.navbar-nav,
+.nav-link {
   color: #333333;
   font-weight: 600;
   padding-left: 1.2rem;
@@ -25,8 +30,8 @@ h1, h3, h4, h5 {
 }
 
 /* buttons */
-.btn{
-  background-color:#2299aa !important ;
+.btn {
+  background-color: #2299aa !important;
   border-radius: 2rem;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
@@ -48,15 +53,18 @@ h1, h3, h4, h5 {
 .projects {
   border: 5px solid #097a8b;
 }
+
 /* banner */
-.banner, #my-works{
+.banner,
+#my-works {
   /* width: 100%; */
   background-color: #dbc2cf
-  /* background-color: whcfite; */
+    /* background-color: whcfite; */
 
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -66,7 +74,7 @@ ul, li {
   justify-content: flex-end;
   align-items: center;
 }
-  
+
 
 .about-me {
   margin-top: 5%;
@@ -79,7 +87,7 @@ ul, li {
 }
 
 .my-links {
-  margin-top:2% ;
+  margin-top: 2%;
 }
 
 #my-projects {
@@ -91,6 +99,7 @@ ul, li {
 .socials {
   background-color: #9fa2b2;
 }
+
 /* .social-area {
   background-color: #eae7dc;
 } */
